@@ -1,16 +1,14 @@
-/* Reset margin dan padding */
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #D6F0FF;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
 
-/* Section profile */
 section.profile {
     display: flex;
     justify-content: center;
@@ -19,58 +17,57 @@ section.profile {
     height: 100vh;
 }
 
-/* Styling kartu */
 .kartu {
-    width: 300px;
-    background-color: white;
-    border-radius: 15px;
-    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
+    width: 280px;
+    background: linear-gradient(135deg, #FCE4EC, #FFEBEE);
+    border-radius: 20px;
+    box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.2);
     text-align: center;
     padding: 20px;
     transition: transform 0.3s ease-in-out;
+    border: 4px dashed #FF80AB;
 }
 
 .kartu:hover {
-    transform: scale(1.05);
+    transform: scale(1.05) rotate(-2deg);
 }
 
-/* Styling gambar */
 .kartu .gambar img {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
     object-fit: cover;
-    border: 3px solid #ddd;
+    border: 5px solid #FFAACC;
     margin-bottom: 15px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* Styling deskripsi */
 .kartu .deskripsi h2 {
     font-size: 22px;
-    color: #333;
+    color: #D81B60;
     margin: 10px 0;
 }
 
 .kartu .deskripsi p {
     font-size: 14px;
     color: #555;
-    padding: 0 15px;
+    padding: 0 10px;
 }
 
-/* Styling medsos */
 .kartu .medsos {
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 .kartu .medsos a {
     display: inline-block;
     text-decoration: none;
-    color: #555;
-    font-size: 24px;
-    margin: 0 10px;
-    transition: color 0.3s;
+    color: #FF4081;
+    font-size: 28px;
+    margin: 0 8px;
+    transition: color 0.3s, transform 0.3s;
 }
 
 .kartu .medsos a:hover {
-    color: #0073b1; /* Warna untuk LinkedIn */
+    color: #D81B60;
+    transform: scale(1.2);
 }
