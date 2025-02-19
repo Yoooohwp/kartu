@@ -27,6 +27,7 @@ section.profile {
     padding: 20px;
     transition: transform 0.3s ease-in-out;
     border: 4px dashed #FF80AB;
+    position: relative;
 }
 
 .kartu:hover {
@@ -55,39 +56,24 @@ section.profile {
     padding: 0 10px;
 }
 
-.kartu .medsos {
-    margin-top: 10px;
+.medsos-bawah {
+    margin-top: 15px;
+    padding-top: 10px;
+    border-top: 2px solid #FF80AB;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
 }
 
-.kartu .medsos a {
-    display: inline-block;
-    text-decoration: none;
-    color: #FF4081;
-    font-size: 28px;
-    margin: 0 8px;
-    transition: color 0.3s, transform 0.3s;
-}
-
-.kartu .medsos a:hover {
-    color: #D81B60;
-    transform: scale(1.2);
-}
-
-.logo-medsos {
-    margin-top: 20px;
-    text-align: center;
-}
-
-.logo-medsos a {
+.medsos-bawah a {
     display: inline-block;
     text-decoration: none;
     color: #555;
-    font-size: 30px;
-    margin: 0 15px;
+    font-size: 24px;
     transition: color 0.3s, transform 0.3s;
 }
 
-.logo-medsos a:hover {
-    color: #0073b1;
+.medsos-bawah a:hover {
+    color: #D81B60;
     transform: scale(1.2);
 }
